@@ -295,7 +295,7 @@ section {
     margin: 1rem;
   }
   #trusted .center {
-    gap: 1rem;
+    gap: 2rem;
   }
   #trusted p {
     margin-bottom: 1rem;
@@ -340,10 +340,5 @@ section {
     .hero-buttons .btn {
       padding: 1rem;
     }
-
-    /* Trusted Logos */
-  .trusted-logos img {
-    width: 4rem;
+  
   }
-
-}
