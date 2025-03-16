@@ -291,6 +291,44 @@ nav {
   color: #043a53;
 }
 
+/* Video section  */
+#video{
+  background-color: #043A53;
+  padding-bottom: 0rem;
+}
+#video .center{
+  justify-content: space-around;
+  gap: 6rem;
+}
+
+.videosection{
+  padding: 0rem;
+}
+.vsummery{
+  width: 85%;
+}
+
+.vhighligh{
+  color: #F0B73F;
+}
+
+.vsummery p{
+  text-align: justify;
+  width: 80%;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.vheader{
+  color: #fff;
+}
+
+.vbox{
+  margin: auto;
+  width: 100%;
+}
+
+
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
