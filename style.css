@@ -430,6 +430,21 @@ nav {
     flex-direction: column;
     gap: 0.75rem;
   }
+
+  /* Video section */
+  .vsummery{
+    width: 100%;
+  }
+
+  #video{
+    margin: 0.2rem;
+  }
+  #video .center {
+    gap: 0px;
+  }
+  #video h2{
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 480px) {
