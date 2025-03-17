@@ -13,9 +13,9 @@
 /* Root Variables for Colors */
 :root {
     --primary-color: #043A53;
-    --secondary-color: ;
+    --secondary-color: #12141D;
     --accent-color: #28a745;
-    --background-color: #f8f9fa;
+    --background-color: #FFFFFF;
     --text-color: #12141D;
 }
 
@@ -38,12 +38,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.2;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h3 {
@@ -191,7 +191,7 @@ section {
 /* Trusted Companies Section */
 #trusted {
   text-align: center;
-  margin-top: 3rem;
+  margin: 3rem;
   padding: 2rem;
 }
 
@@ -329,10 +329,15 @@ nav {
 }
 
 /* Beneficial Elements */
-.benefits{
+.flex{
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
+  justify-content: center;
+}
+
+#BeneficialE .center{
+  gap: 2.5rem;
 }
 
 .benefits .primary{
@@ -358,6 +363,54 @@ nav {
 
 .feature-thumb{
   margin-bottom: 1rem;
+}
+
+
+
+/* Building bridges */
+.buildingb{
+  columns: var(--text-color);
+}
+.Bhighlight{
+  color: #92A7B0
+}
+
+.left img{
+  width: 56rem;
+  height: 100%;
+}
+
+.right{
+  width: 64%;
+}
+
+#Buildingbridges .center{
+  justify-content: flex-start;
+  gap: 6rem;
+}
+
+.right h2{
+  line-height: normal;
+  font-size: 3.5rem;
+}
+
+#Buildingbridges{
+  padding-right: 4rem 0rem!important;
+}
+
+.right .btn.primary {
+  width: inherit;
+  text-align: start;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.arrow{
+  border-radius: 50%;
+  background-color: #2a586d;
+  padding: 0.2rem;
 }
 
 
