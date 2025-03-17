@@ -534,6 +534,29 @@ nav {
     align-items: center;
     text-align: center;
   }
+  /* Building bridges  */
+  #Buildingbridges .center{
+    flex-direction: column-reverse;
+  }
+  .right{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .left img{
+    width: 100%;
+  }
+
+  .right .btn.primary{
+    width: 35%;
+  }
+  .right h2{
+    font-size: 2rem;
+  }
+  .right{
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -595,4 +618,11 @@ nav {
     width: 85%;
   }
 
+  .right .btn.primary{
+    width: 48%;
+  }
+
+  #Buildingbridges .center{
+    gap: 3rem;
+  }
 }
