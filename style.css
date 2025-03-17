@@ -476,6 +476,11 @@ nav {
   #video h2{
     font-size: 2rem;
   }
+   /* Beneficial Elements  */
+   .benefits{
+    align-items: center;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -525,6 +530,16 @@ nav {
   .nav-center {
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+  .benefits .primary{
+    width: 35%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .elements{
+    width: 85%;
   }
 
 }
