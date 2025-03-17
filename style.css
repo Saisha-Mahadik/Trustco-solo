@@ -75,10 +75,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 /* Buttons */
 .btn {
     display: inline-block;
@@ -441,6 +437,39 @@ nav {
   font-weight: 700;
 }
 
+/* Meet our founder */
+.founder{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.founder h2{
+  margin-bottom: 0;
+}
+.founder p{
+  color: #12141D;
+  font-size: 1.5rem;
+  text-align: start;
+}
+
+.founderdetails p{
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.founderimg{
+  width: 46%;
+}
+
+.founder .btn.primary{
+  width: inherit;
+  text-align: start;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 2rem;
+}
 
 
 /* Responsive Adjustments */
