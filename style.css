@@ -111,7 +111,7 @@ a:hover {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 6rem 1.25rem;
 }
 
 /* Section Padding */
@@ -328,6 +328,37 @@ nav {
   width: 100%;
 }
 
+/* Beneficial Elements */
+.benefits{
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.benefits .primary{
+  width: 70%;
+  text-align: center;
+}
+
+.benefits h2{
+  margin-bottom: 0rem;
+  line-height: 1.2;
+}
+
+.elements{
+  width: 65%;
+  background-color: #F2F5F6;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+
+.elements h3{
+  font-size: 1.5rem;
+}
+
+.feature-thumb{
+  margin-bottom: 1rem;
+}
 
 
 /* Responsive Adjustments */
