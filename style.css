@@ -477,6 +477,9 @@ nav {
   body {
     overflow-x: hidden;
   }
+  .container{
+    padding: 3rem 1.25rem;
+  }
     h1 {
         font-size: 2.5rem;
     }
@@ -614,6 +617,32 @@ nav {
   }
   .right{
     padding: 1rem;
+  }
+
+  /* customers */
+  .customers{
+    padding-bottom: 0px;
+  }
+
+  /* Meet our founder */
+  .founderimg img{
+    width: 100%;
+  } 
+  .founderimg{
+    width: 100%;
+  }
+  .founder{
+    text-align: center;
+  }
+  .founder h2{
+    font-size: 2rem;
+  }
+  .founder p{
+    width: 100%;
+    text-align: center;
+  }
+  .founder .btn.primary{
+    margin: auto;
   }
 }
 
