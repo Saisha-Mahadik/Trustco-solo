@@ -413,6 +413,35 @@ nav {
   padding: 0.2rem;
 }
 
+/* Customers satusfcation */
+#Clientsection{
+  margin: 0rem 1.5rem; 
+  margin-bottom: 0rem;
+}
+.customers {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.spec span{
+  font-size: 3rem;
+  color: #043A53;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.spec p{
+  color: #1E1E1E;
+  font-weight: 700;
+}
+
+
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
